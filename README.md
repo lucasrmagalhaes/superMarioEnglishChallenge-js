@@ -8,6 +8,7 @@
     />
   </a>
   <br />
+  Sistema de reconhecimento de voz em JS para aprender cores em inglês. <br />
   Desenvolvido com HTML, CSS e JavaScript.
 </p>
 
