@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Super Mario English Challenge</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+  
+  <title>Super Mario English Challenge</title>
 </head>
+
 <body>
-    <div id="containter">
+    <div id="container">
         <header id="cabecalho-principal">
             <div id="pontuacao-game">
-                <img src="img/moeda.png" height="20px" alt="Moeda">
-                Moedas: 0
+              <img src="img/moeda.png" height="20px" alt="Moeda">
+              Moedas:&nbsp;&nbsp; <span id="pontuacao-atual">0</span> 
             </div>
+
             <div id="nome-jogo">
                 Super Mario English Challenge
             </div>
         </header>
+
+        <section id="corpo">
+          <div id="esquerda">
+              <h3>FALE O NOME DA COR EM INGLÊS</h3>
+              <span id="cor-na-caixa"></span>
+
+              <div id="cor-atual">
+
+              </div>
+
+              <button id="btn-responder">RESPONDER</button>
+
+          </div>
+          
+          <div id="direita">
+              <img src="img/mario.png" height="390px" alt="Mário">
+          </div>
+
+        </section>
+
+        <footer id="rodape">
+            <a href="https://digitalinnovation.one/sign-in" target="blank">
+                <img src="img/logo-dio.png" height="90px" alt="Logo da DIO">
+            </a>
+        </footer>
     </div>
+    
+    <script src="js/functions.js"></script>
 </body>
+
 </html>
