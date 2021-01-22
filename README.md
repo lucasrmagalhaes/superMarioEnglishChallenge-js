@@ -1,4 +1,4 @@
-<h1 align="center">:question: SUPER MARIO ENGLISH CHALLENGE :grey_question:</h1>
+<h1 align="center">:question: SUPER MARIO: ENGLISH CHALLENGE :grey_question:</h1>
 
 <p align="center">
   <a href="https://super-mario-english-challenge.netlify.app/">
