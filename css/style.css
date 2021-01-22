@@ -9,7 +9,7 @@ body {
 }
 
 header#cabecalho-principal {
-    background-color: #dddddd;
+    background-color: #b30000;
     width: 100%;
     height: 40px;
 
@@ -18,6 +18,11 @@ header#cabecalho-principal {
 
     justify-content: space-between;
     align-items: center;
+}
+
+header#cabecalho-principal div#nome-jogo {
+    color: white;
+    font: bold;
 }
 
 #pontuacao-game {
@@ -50,11 +55,11 @@ header#cabecalho-principal {
 section#corpo {
     display: flex;
     flex-direction: row;
-    margin-top: 15px;
+    margin-top: 80px;
 }
 
 section#corpo div#direita {
-    /* margin-top: 10px; */
+    margin-top: -30px;
 }
 
 section#corpo div#esquerda {
@@ -94,9 +99,9 @@ div#container footer#rodape{
   position: fixed;
   bottom: 0px;
   width: 100%;
-  height: 80px;
+  height: 60px;
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: right;
 }
